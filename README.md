@@ -6,11 +6,7 @@ Enlace al Acceso Publico:
 Integrantes:
 
 1-
-
 2-
-
 3-
-
-4-
-
+4- Diego Ariel Martinez Lemus #24
 5-
