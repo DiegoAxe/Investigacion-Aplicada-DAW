@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto+Slab:wght@800&display=swap');
+:root{ 
+    --Color-BG-Navegador: #F4F6F6; /*17202A*/ /*Los comentarios son los colores de la paleta oscura*/
+    --Color-BG-Header: #F4F6F6;  /*17202A*/
+    --Color-BG-Footer: #424747;  /*17202A*/
+    --Color-BG-Contenido-Principal: rgb(189,217,220) ;  /*34495E*/
+    --Color-Decorativos-1: rgb(35,65,119); /*white*/
+    --Color-Letras-1: black; /*white*/
+
+}
+
+body{
+    background-color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+   display: none;
+}
+ 
+header{
+    position: relative;
+    background-color: var(--Color-BG-Header);
+    border-bottom: 1px black solid;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    z-index: 1;
+    
+}
+header h1{
+    color: var(--Color-Letras-1);
+    margin-left: 250px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+}
+
+.navvv {
+    color: var(--Color-Letras-1);
+    background-color: var(--Color-BG-Navegador);
+    position: fixed;
+    border-right: 1px black solid;
+    height: 100%;
+    width: 10%;
+    padding: 50px;
+    padding-top: 30px;
+    z-index: 3;
+    margin: 0;
+    text-align: left;
+    overflow: scroll;
+}
+.menu{
+    margin-top: 50px;
+    height: auto;
+    margin-bottom: 180px;
+}
+.menu a{
+    text-decoration: none;
+    display: block;
+    padding: 11px;
+    border-left: 5px solid transparent;
+    color: var(--Color-Letras-1);
+    border-top: 1px solid var(--Color-Decorativos-1);
+}
+.menu a:first-child{
+    border-top: 0px solid var(--Color-Decorativos-1);
+}
+.menu a:hover{
+    border-left: 5px solid var(--Color-Decorativos-1);
+}
+.title_nav{
+    width: 14%;
+    padding: 20px 17px;
+    position: fixed;
+    background-color: var(--Color-BG-Navegador);
+    top: 0;
+    left: 0;
+}
+.title_nav h2{
+    width: 100%;
+    text-align: center;
+    color: var(--Color-Letras-1);
+    font-size: 2.2vw;
+    height: 8%;
+}
+.cont{
+    width: 12%;
+    padding: 20px 30px;
+    position: fixed;
+    background-color: var(--Color-BG-Navegador);
+    /*display: flex;*/
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    
+}
+
+.cont ul{
+    list-style: none;
+}
+
+section{
+    margin: 30px 0px 0px 19%;
+    position: relative;
+    background-color: var(--Color-BG-Contenido-Principal);
+    color: var(--Color-Letras-1);
+    width: 73%;
+    height: fit-content;
+    min-height: 400px;
+    z-index: 1;
+    padding: 50px;
+}
+footer{
+    position: relative;
+    margin-top: 30px;
+    background-color:  var(--Color-BG-Footer);
+    border-top: 1px black solid;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    z-index: 1;
+    
+}
+footer h2{
+    color: white;
+    margin-left: 250px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+footer ul li{
+    display:inline-block;
+    list-style-type: none;
+}
+
+.bloqueInfo{
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(35,65,119);
+    font-size: large;
+    padding: 30px;
+    color: rgb(189,217,241);
+}
+.bloqueInfo h2{
+    margin: 20px 0px;  
+    text-align: center;  
+}   
+
+.bloqueInfo p{
+    text-align: justify;
+}
+
+.bloqueInfo img{
+    width: auto;
+    display: block;
+    margin: auto;
+    margin: 30px auto 30px auto;
+
+}
+
+.bloqueInfo ul{
+    margin: 20px 0 20px 100px;
+    list-style-type:circle;
+}
+
+.Leermas{
+    color: rgb(139,222,254);
+}
+
+li.CopyrightLI{
+    width: 90%;
+}
+
+#comparativa{
+    width: 80%;
+}
+
+.boton12{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonche{
+    padding: 3px;
+    width: 12em;
+    height: 3em;
+    font-weight: bold;
+}
+
+#Sintaxis1,#Sintaxis2{
+    width: 80%;
+}
+
+#concat{
+    font-weight: bold;
+}
+
+.divInputs{
+    margin: 30px;
+}
+
+#dato{
+    margin-bottom: 20px;
+}
+
+input{
+    margin: 0 30px 0 30px;
+    width: 350px;
+}
+
+.btnInfo{
+    width: 150px;
+    font-weight: bold;
+}
