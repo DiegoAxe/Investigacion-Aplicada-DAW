@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Operador Spread </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/General CSS.css'>
+  <!--  <link rel="icon" href="imgs/Logo.png"> -->
+    <script src="https://use.fontawesome.com/4a4e06edc3.js"></script>
+</head>
+<body>
+    
+<div class="navvv"> 
+    
+    <div class="title_nav">
+        <h2>Navegador</h2>
+    </div>
+    
+    <nav>
+        <div class="menu">
+            <a href="Index.html"> Home </a>
+            <a href="Buenas Practicas.html"> Buenas Prácticas de Edición de Codigo </a>
+            <a href="Linting.html"> Qué es linting y su uso en JS </a>
+            <a href="Flecha.html"> Funciones Flecha </a>
+            <a href="Spread.html"> Operador Spread </a>
+        </div>
+    </nav>
+    <div class="cont">
+        <ul>
+            <li> Oscar Guevara #14 </li>
+            <li> Gerardo Herrera #15 </li>
+            <li> Cristian Lopez #18 </li>
+            <li> Ariel Lemus  #24 </li>
+            <li> Edmilson Martinez #25 </li>
+        </ul>
+    </div>
+</div>
+
+<header>
+    <h1> Operador Spread </h1>
+</header>
+
+<section>
+
+    <div class="bloqueInfo">
+        <p>El spread operator también concido como "operador spread" , "sintaxis extendida" o simplemente "operador de propagación" es un operador de JavaScript introducido ECMAScript 2016, este operador nos puede ayudar a crear un código más consistente. Pero antes se debe conocer su definición. Según la Mozilla Developer Network (MDN), se define como una sintaxis extendida, que permite a cualquier elemento iterarble, pueden ser arrays o cadenas, ser expandido donde cero o más argumentos o elementos son esperados, o a un objeto ser expandido en lugares donde cero o más pares de valores clave son esperados. El operador spread se representa con "...".</p>
+        <p>Es muy importante no confundir el operador spread con el operador rest, ya que el operador rest solamente permite representar un número indefinido de argumentos, por ejemplo un array. La sintaxis del operador rest se define de la siguiente manera: </p>
+        <img src="imgs/sintaxisrest.png" id="Sintaxis2" alt="Sintaxis Rest">
+        <p>Al colocar los "..." antes del tercer parámetro, indicamos que en se pueden recibir un número indefinido de parámetros que se deben tratar como un arreglo. Al ejecutar esta función la operación nos devuleve 21, es decir que siempre sumará números sin importar la cantidad de parámetros, esta es la utilidad del operador rest.</p>
+        <p>Una vez concido en que consiste el operador rest, es momento de hablar sobre la sintaxis del operador spread, dicha sintaxis se puede definir de las siguientes maneras: </p>
+        <img src="imgs/sintaxisspread.png" alt="Sintaxis Spreed">
+        <p>Ahora para comprender de mejor manera el operador spread, se muestra un ejemplo, el cual consiste en ingresar una cantidad de datos indeterminadas en las dos casillas, a modo de concatenar estos dos arreglos recibidos.</p>
+        <h2></h2><hr>
+        <div class="row">
+            <h2> Ejemplo operador spread </h2>
+            <p>Para el siguiente ejemplo, debe ingresar un dato en el primer input, puede ser texto o numero, incluso un valor vacío. Una vez ingresado un dato en el primer input, ingresar un dato en el segundo input, y así se puede ir alternando las veces que sean, JavaScript mostrará un arreglo, el cual gracias al operador spread es posible concatenarlo de manera más sencilla y simple.</p>
+            <div class="divInputs">
+                <div class="form-group input-group mb-3">
+                    <label for="dato">Primer Arreglo&nbsp;&nbsp;&nbsp;</label>
+                    <input type=text placeholder="Ingrese un dato cualquiera, las veces que sea" class="form-control"  id="dato">
+                    <button id="firstfact" type="button" class="btnInfo" >Ingresar dato</button>
+                </div>
+                    <div class="form-group input-group mb-3">
+                    <label for="datotwo">Segundo Arreglo</label>
+                    <input type=text placeholder="Ingrese un dato cualquiera, las veces que sea" class="form-control" id="datotwo">
+                    <button id="secondfact" type="button" class="btnInfo">Ingresar dato</button>
+                </div>
+            </div>
+        </div>
+    <div id="resultados">
+        <p>Su arreglo concatenado: </p><p id="concat"></p>
+    </div>
+        <h2></h2>
+        <p>El código utilizado fue este: </p>
+        <img src="imgs/ejemplo.png" id="Sintaxis1" alt="Ejemplo 1">
+        <p>Para la creación de este ejemplo fueron necesarias dos funciones y claramente dos arreglos, por cada input, a su vez iteradores para que cada vez que un botón se presionara vaya aumentando su índice. Cuando el usuario hace click sobre un botón de "ingresar dato" inmediatamente el programa procede a guardarlo en un array, dependiendo del botón puede ser la variable "array1" o "array", luego se imprime en pantalla ambos arrays, que con el operador spread es decir "..." se pueden fácilmente concatenar los dos arreglos.</p>
+
+
+
+    </div>
+
+</section>
+
+<footer>
+    <ul>
+        <li class="CopyrightLI"><h2> Copyright 2022 &#169 IIIB DSF - DAW </h2>
+    </ul>
+</footer>
+
+</body>
+<script src="js/Spread.js"></script>
+</html>
