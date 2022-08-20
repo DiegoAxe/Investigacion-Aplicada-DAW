@@ -9,7 +9,7 @@ Integrantes:
 
 2- Gerardo Antonio Herrera Cruz
 
-3-
+3-Cristian Alexis Lòpez Tamayo
 
 4- Diego Ariel Martinez Lemus #24
 
