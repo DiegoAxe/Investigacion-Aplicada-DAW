@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Funciones Flecha </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/General CSS.css'>
+  <!--  <link rel="icon" href="imgs/Logo.png"> -->
+    <script src="https://use.fontawesome.com/4a4e06edc3.js"></script>
+</head>
+<body>
+    
+<div class="navvv"> 
+    
+    <div class="title_nav">
+        <h2>Navegador</h2>
+    </div>
+    
+    <nav>
+        <div class="menu">
+            <a href="Index.html"> Home </a>
+            <a href="Buenas Practicas.html"> Buenas Prácticas de Edición de Codigo </a>
+            <a href="Linting.html"> Qué es linting y su uso en JS </a>
+            <a href="Flecha.html"> Funciones Flecha </a>
+            <a href="Spread.html"> Operador Spread </a>
+        </div>
+    </nav>
+    <div class="cont">
+        <ul>
+            <li> Oscar Guevara #14 </li>
+            <li> Gerardo Herrera #15 </li>
+            <li> Cristian Lopez #18 </li>
+            <li> Ariel Lemus  #24 </li>
+            <li> Edmilson Martinez #25 </li>
+        </ul>
+    </div>
+</div>
+
+<header>
+    <h1> Funciones Flecha </h1>
+</header>
+
+<section>
+
+    <div class="bloqueInfo">
+        <p>De manera simple, las funciones flecha son algo así como una alternativa compacta a una <u>expresion de función </u>tradicional, pero la desventaja es que es 
+            limitada y no se puede usar en todas las situaciones.</p>
+        <h2>Algunas diferencias y limitaciones con respecto a otras expresiones.</h2>
+        <ul>
+            <li>Las funciones flechas no tienen sus propios enlaces a <u>this</u> o <u>super</u> y no se tienen que usar como métodos.</li>
+            <li>No tiene ni <u>argumentos </u> ni palabras clave como el <u>new. target.</u></li>
+            <li>No se pueden usar como constructor.</li>
+            <li>No se puede usar el <u>vield</u> dentro de su cuerpo.</li>
+        </ul>
+        <hr>
+        <h2>Descripción sobre las funciones flecha</h2>
+        <p> Una las principales razones del porque del la introducción de las funcions flecha, es para eliminar las complejidades del <u>this</u>, y hacer que la ejecución de dichas funciones sea, al a vez que más corta, más intuitiva para todos.
+        </p>
+        <br>
+        <p> El mayor beneficio que da para el usuario las funciones flecha, es que con los métotodos a nivel del DOM, que casi siempre requieren de algun tipo de cierre, llamada o aplicación para garantizar su correcto funcionamienito.
+        </p><h2></h2>
+        <hr>
+        <h2>Sintaxis básica</h2>
+        <p> Las funciones flecha con una expresión siemple no necesitan un return:
+        </p>
+        <img src="imgs/ej1.jpeg" alt="Ejemplo 1">
+        <p> En el caso de que querámos introducir varios parametros debermos de usar paréntesis, y como es una expresión simple de múltiple parámetro no utilizaremos return:
+        </p>
+        <img src="imgs/ej 2.jpeg" alt="Ejemplo 2">
+        <p> Las declaraciones en varías lineas en las funciones flecha si requieren tanto de corchetes y de un return
+        </p>
+        <img src="imgs/ej 3.jpeg" alt="Ejemplo 3">
+        <p>Varios parámetros y varáas líneas de código requieren tanto de paréntesis 
+        </p>
+        <img src="imgs/ej 4.jpeg" alt="Ejemplo 4">
+        <hr>
+        <h2>Ejemplo: </h2>
+        <p> El siguiente ejemplo, es un ejemplo bastante sencillo pero funcional, en el, al dar click en el botón nos enviará un mensaje pidiendo nuestra edad, si es mayor a 18 nos dirá el mensaje "Adios", si es menor "Hola".
+        </p>
+        <div class="boton12">            <button id="jujuju" type="button" class="botonche"> Mostrar Mensaje</button>
+        </div>
+        <h2></h2>
+        <hr>
+        <h2>Sintaxís usada:</h2>
+        <p> La sintaxís usada es bastante sencilla, por medio del boton y gracias al id podemos ocupar la función get.
+        </p>
+        <img src="imgs/ej 5.jpeg" alt="Ejemplo 5">
+        <p> Luego en el onclick, ejecutaríamos la función flecha. </p>
+        <img src="imgs/ej 6.jpeg" alt="">
+    </div>
+
+</section>
+
+<footer>
+    <ul>
+        <li class="CopyrightLI"><h2> Copyright 2022 &#169 IIIB DSF - DAW </h2>
+    </ul>
+</footer>
+
+</body>
+<script src="js/Flechas.js"></script>
+</html>
