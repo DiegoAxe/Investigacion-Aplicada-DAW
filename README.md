@@ -7,7 +7,7 @@ Integrantes:
 
 1- Oscar Alexander Guevara Rodríguez #14
 
-2- 
+2- Gerardo Antonio Herrera Cruz
 
 3-
 
